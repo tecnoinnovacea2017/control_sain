@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{	
+	font-family: Arial,sans-serif,helvetica;	
+
+}
+
+h1 {
+	text-align: center;
+	margin-top: 30px;
+	padding: 10px 15px;
+	margin-bottom: 5px;
+	color:#328bcf;
+	font-family: Times New Roman ;
+	font-size: 50px;
+}
+
+
+input{
+	background-color:#ccffff;
+}
+
+#Inicio button{
+	border: none;
+	padding: 1%;
+	margin-top: 1%;
+	color: black;
+	border: 2px solid #555555;
+	border-radius: 4px;	
+	width: 300px;
+}
+
+#Inicio button:hover {
+	background-color: #555555;
+	color: white;
+	cursor:pointer; cursor: hand;
+}
