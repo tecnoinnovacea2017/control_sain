@@ -10,15 +10,20 @@
 	<h1>Añadir Producto</h1>
 
     <img src="recursos/calle.jpg"><br>
-    Nombre: <input type="text"><br>
-    valor de Fabrica: <input type="text" name="numpiso" onkeypress="return valida(event)"><br>
-    valor al Cliente: <input type="num" name="numpiso" onkeypress="return valida(event)"><br>
-    Proveedor: <input type="text"><br>
+    <form>
+
+    Nombre: <input type="text" c><br>
+    valor de Fabrica: <input type="text" name="fabrica" onkeypress="return valida(event)"><br>
+    valor al Cliente: <input type="num" name="cliente" onkeypress="return valida(event)"><br>
+    Proveedor: <input type="text" name="proveedor"><br>
     <textarea name="comentarios" rows="10" cols="40"placeholder="Descripcion del producto"></textarea><br>
     <br>
     <br>
     <br>  
-    <button>GUARDAR</button>  
+    <button type="submit">GUARDAR</button>  
+    </form>
     <a href="control_SAIN.html"><button>ATRAS</button>
+        <script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/script_de_envio.js"></script>
 
 </body>
