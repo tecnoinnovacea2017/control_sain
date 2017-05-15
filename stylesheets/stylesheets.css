@@ -38,3 +38,17 @@ input{
 	color: white;
 	cursor:pointer; cursor: hand;
 }
+input {
+margin:2 2px;
+overflow:hidden;
+padding:5px;
+background-color:#6BD5F1;
+border:0px solid #afcde3;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+}
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+}
