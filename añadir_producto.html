@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
     <link rel="stylesheet" href="./stylesheets/stylesheets.css">
     <script src="./js/script.js"></script>
+    <script src="js/select_dinamico.js"></script>
     <title> control sain</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
     Nombre: <input type="text" name="nombre"><br>
     valor de Fabrica: <input type="number" name="fabrica" onkeypress="return valida(event)"><br>
     valor al Cliente: <input type="number" name="cliente" onkeypress="return valida(event)"><br>
-    Proveedor: <select name="proveedor"><option>1</option><option>2</option><option>3</option><option>4</option></select><br>
+    Proveedor: <select class name id="select"></select></br>
     Unidades: <input type="number" name="unidades"
     onkeypress="return valida(event)"><br>
     <textarea name="comentarios" rows="10" cols="40"placeholder="Descripcion del producto"></textarea><br>
@@ -27,7 +28,8 @@
     <br>
     <a href="control_SAIN.html"><button>ATRAS</button>
         <script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/script_de_envio.js"></script>
+<script type="text/javascript" src="js/script_de_envio
+.js"></script>
 </fieldset>
 
 </body>

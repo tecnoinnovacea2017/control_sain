@@ -10,18 +10,21 @@
 	
 	<h1>Añadir Proveedor </h1>
     <fieldset>
-	<input type="text" placeholder="Nombre"><br>
-	<input type="text" placeholder="Correo"><br>
+	<input type="text" placeholder="Nombre" name="nombre"><br>
+	<input type="text" placeholder="Correo" name="correo"><br>
 	
-	<input id="ejemplo" onkeypress="return valida(event)"placeholder="Telefono"> </input><br>
-	<input type="text" placeholder="Direccion"><br>
-	<input type="text" placeholder="Ciudad"><br>
-	<input type="text"  onkeypress="return valida(event)"placeholder="Nif"><br>
+	<input id="ejemplo" type="number" onkeypress="return valida(event)"placeholder="Telefono" name="telefono"> </input><br>
+	<input type="text" placeholder="Direccion" name="direccion"><br>
+	<input type="text" placeholder="Ciudad" name="ciudad"><br>
+	<input type="number"  onkeypress="return valida(event)"placeholder="Nif" name="nif"><br>
 	<br>
-	<button>Guardar</button>
+	<button type="submit">Guardar</button>
 	<br>
 	<br>	
 	<a href="control_SAIN.html"><button>ATRAS</button>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/script_de_envio.js"></script>
+	<script type="text/javascript" src="js/script_de_envio_proveedores.js"></script>
 
 </fieldset>
 </body>
