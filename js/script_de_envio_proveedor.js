@@ -1,4 +1,4 @@
-$(document).ready(function()
+$(document).ready(function(send)
 {
   $.ajaxSetup({
           contentType: "application/json; charset=utf-8",

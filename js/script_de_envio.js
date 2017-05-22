@@ -1,4 +1,4 @@
-$(document).ready(function()
+$(document).ready(function(send)
 {
   $.ajaxSetup({
           contentType: "application/json; charset=utf-8",
@@ -21,7 +21,7 @@ $(document).ready(function()
               var send = JSON.stringify(objectifyForm($(this).serializeArray()));
               console.log(send);
               $.ajax({
-                  url: "http://couchdb.contraslash.com/control_sain_proveedores/",
+                  url: "http://couchdb.contraslash.com/control_saint/",
                   type: "POST",
                   data: send,
                   success: function (sreg, status, jqXHR) {
