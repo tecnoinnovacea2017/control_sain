@@ -7,9 +7,11 @@
 	<title> control sain</title>
 </head>
 <body>
-	
+
 	<h1>Añadir Proveedor </h1>
     <fieldset>
+			<form  method="post">
+
 	<input type="text" placeholder="Nombre" name="nombre"><br>
 	<input type="text" placeholder="Correo" name="correo"><br>
 	<input id="ejemplo" type="number" onkeypress="return valida(event)"placeholder="Telefono" name="telefono"> </input><br>
@@ -19,7 +21,8 @@
 	<br>
 	<button type="submit">Guardar</button>
 	<br>
-	<br>	
+</form>
+	<br>
 	<a href="control_SAIN.html"><button>ATRAS</button></a>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/script_de_envio_proveedor.js"></script>
