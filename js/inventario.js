@@ -1,12 +1,12 @@
 $(document).ready(function(select)
-  {
-var show_data = function(objeto){
+{
+
+  var show_data = function(objeto){
    if (objeto.hasOwnProperty("fabrica"))
       {
         $('#tabla tr:last').after('<tr><th>'+1+'</th><td>'+objeto.nombre+'</td><td>'+objeto.fabrica+'</td><td>'+objeto.cliente+'</td><td>'+objeto.proveedor+'</td><td>'+objeto.unidades+'</td><td><button>Editar</button></td><td><button>Guardar</button></td></tr>');
       }
   }
-
 //$("#boton").click(function(event)
 //{
     console.log("asd");
